@@ -17,15 +17,15 @@ This project was designed to simulate how machine learning systems are built and
 The system follows a simple but realistic machine learning architecture.
 
 User enters skills through the web interface  
-↓  
+                ↓  
 Frontend sends request to FastAPI backend  
-↓  
+                ↓  
 Backend processes the input skills  
-↓  
+                ↓  
 ML recommendation engine calculates similarity  
-↓  
+                ↓  
 Relevant job roles are retrieved from the dataset/database  
-↓  
+                ↓  
 Recommended jobs are returned to the user
 
 ---
@@ -80,27 +80,27 @@ Docker Compose
 job-recommendation-system
 │
 ├── api
-│ └── app.py
+│   └── app.py
 │
 ├── data
-│ └── jobs_dataset.csv
+│   └── jobs_dataset.csv
 │
 ├── database
-│ └── schema.sql
+│   └── schema.sql
 │
 ├── frontend
-│ ├── index.html
-│ ├── script.js
-│ └── style.css
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
 │
 ├── model
-│ └── job_recommender.pkl
+│   └── job_recommender.pkl
 │
 ├── src
-│ ├── data_preprocessing.py
-│ ├── feature_engineering.py
-│ ├── train_model.py
-│ └── recommend.py
+│   ├── data_preprocessing.py
+│   ├── feature_engineering.py
+│   ├── train_model.py
+│   └── recommend.py
 │
 ├── Dockerfile
 ├── docker-compose.yml
